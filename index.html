@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi"> <!-- Язык страницы: вьетнамский -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"> <!-- Кодировка -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптивность -->
   <meta name="description" content="ACB88 - Casino trực tuyến hàng đầu với slot, live casino, khuyến mãi hấp dẫn và dịch vụ hỗ trợ 24/7.">
-  <title>ACB88 - Casino Trực Tuyến</title>
+  <!-- Описание страницы: ACB88 – Ведущее онлайн-казино со слотами, live-казино, привлекательными акциями и поддержкой 24/7 -->
+  <title>ACB88 - Casino Trực Tuyến</title> <!-- Название страницы: ACB88 – Онлайн-казино -->
+  
+  <!-- Подключение шрифта Roboto -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Внешняя таблица стилей -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Встроенные стили -->
   <style>
+    /* Цветовые переменные */
     :root {
-      --primary: #e50914;
-      --dark: #1a1a1a;
-      --light: #ffffff;
-      --accent: #ff4d4f;
+      --primary: #e50914;   /* Основной цвет */
+      --dark: #1a1a1a;      /* Тёмный цвет */
+      --light: #ffffff;     /* Светлый цвет */
+      --accent: #ff4d4f;    /* Акцентный цвет */
     }
 
+    /* Сброс и базовый шрифт */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -27,6 +37,7 @@
       line-height: 1.6;
     }
 
+    /* Шапка сайта */
     header {
       background: var(--dark);
       padding: 1rem 2rem;
@@ -42,6 +53,7 @@
       color: var(--primary);
     }
 
+    /* Навигация */
     .main-nav a {
       color: var(--light);
       margin: 0 1rem;
@@ -54,6 +66,7 @@
       color: var(--primary);
     }
 
+    /* Кнопки регистрации и входа */
     .auth-buttons button {
       background: var(--primary);
       color: var(--light);
@@ -74,6 +87,7 @@
       margin-bottom: 1rem;
     }
 
+    /* Промо-баннер */
     .banner {
       background: var(--accent);
       color: #fff;
@@ -85,6 +99,7 @@
       margin-bottom: 2rem;
     }
 
+    /* Быстрая кнопка запуска */
     .quick-access button {
       display: block;
       width: 100%;
@@ -98,6 +113,7 @@
       margin-bottom: 2rem;
     }
 
+    /* Подвал сайта */
     footer {
       background: var(--dark);
       padding: 2rem;
@@ -119,6 +135,7 @@
       color: var(--primary);
     }
 
+    /* Блок с SEO-текстом */
     .seo-text {
       background-color: #f9f9f9;
       padding: 1.5rem;
@@ -129,97 +146,112 @@
   </style>
 </head>
 <body>
+  <!-- Шапка сайта -->
   <header>
     <div class="logo">ACB88</div>
     <nav class="main-nav">
-      <a href="#home">Trang chủ</a>
-      <a href="#games">Trò chơi</a>
-      <a href="#bonuses">Khuyến mãi</a>
-      <a href="#tournaments">Giải đấu</a>
-      <a href="#support">Hỗ trợ</a>
+      <a href="#home">Trang chủ</a>         <!-- Trang chủ = Главная -->
+      <a href="#games">Trò chơi</a>         <!-- Trò chơi = Игры -->
+      <a href="#bonuses">Khuyến mãi</a>     <!-- Khuyến mãi = Акции -->
+      <a href="#tournaments">Giải đấu</a>   <!-- Giải đấu = Турниры -->
+      <a href="#support">Hỗ trợ</a>         <!-- Hỗ trợ = Поддержка -->
     </nav>
     <div class="auth-buttons">
-      <button>Đăng ký</button>
-      <button>Đăng nhập</button>
+      <button>Đăng ký</button>  <!-- Đăng ký = Регистрация -->
+      <button>Đăng nhập</button> <!-- Đăng nhập = Вход -->
     </div>
   </header>
 
+  <!-- Главная секция -->
   <section id="home">
     <div class="banner">🎁 Nhận ngay 100% thưởng khi đăng ký!</div>
+    <!-- Nhận ngay 100% thưởng khi đăng ký! = Получите 100% бонус при регистрации! -->
+
     <div class="quick-access">
-      <button>Chơi ngay</button>
+      <button>Chơi ngay</button> <!-- Chơi ngay = Играть сейчас -->
     </div>
+
     <div class="popular-games">
-      <h2>Trò chơi phổ biến</h2>
+      <h2>Trò chơi phổ biến</h2> <!-- Trò chơi phổ biến = Популярные игры -->
     </div>
+
     <div class="promotions">
-      <h2>Khuyến mãi hiện tại</h2>
+      <h2>Khuyến mãi hiện tại</h2> <!-- Khuyến mãi hiện tại = Текущие акции -->
     </div>
+
+    <!-- SEO-текст -->
     <div class="seo-text">
-      <h3>Casino online uy tín hàng đầu tại Việt Nam</h3>
-      <p>ACB88 cung cấp trải nghiệm <strong>casino trực tuyến</strong> đỉnh cao với hàng ngàn trò chơi hấp dẫn như <strong>slot đổi thưởng</strong>, <strong>live casino</strong> với dealer thật, và các trò chơi kỹ năng thú vị. Giao diện hiện đại, dễ sử dụng và hỗ trợ người chơi 24/7, ACB88 là địa chỉ uy tín cho những ai đam mê cá cược trực tuyến.</p>
-      <p>Người chơi có thể truy cập ACB88 mọi lúc, mọi nơi trên thiết bị di động hoặc máy tính để bàn. Chúng tôi luôn cập nhật các trò chơi mới nhất và những ưu đãi độc quyền cho người chơi trung thành. Tham gia ACB88 ngay hôm nay để khám phá thế giới casino trực tuyến đỉnh cao tại Việt Nam.</p>
+      <h3>Casino online uy tín hàng đầu tại Việt Nam</h3> <!-- Надежное онлайн-казино №1 во Вьетнаме -->
+      <p>ACB88 cung cấp trải nghiệm <strong>casino trực tuyến</strong>... </p>
     </div>
   </section>
 
+  <!-- Раздел игр -->
   <section id="games">
-    <h2>Trò chơi</h2>
+    <h2>Trò chơi</h2> <!-- Trò chơi = Игры -->
     <nav class="game-tabs">
-      <a href="#slots">🎰 Slot</a>
-      <a href="#live">🃏 Live Casino</a>
-      <a href="#table">🎲 Trò chơi bàn</a>
-      <a href="#jackpots">💰 Jackpot</a>
-      <a href="#skills">🧠 Trò chơi kỹ năng</a>
+      <a href="#slots">🎰 Slot</a>               <!-- Слоты -->
+      <a href="#live">🃏 Live Casino</a>         <!-- Live казино -->
+      <a href="#table">🎲 Trò chơi bàn</a>       <!-- Trò chơi bàn = Настольные игры -->
+      <a href="#jackpots">💰 Jackpot</a>         <!-- Джекпоты -->
+      <a href="#skills">🧠 Trò chơi kỹ năng</a>  <!-- Trò chơi kỹ năng = Игры на умение -->
     </nav>
+
     <div class="seo-text">
-      <h3>Chơi slot đổi thưởng với tỷ lệ thắng cao</h3>
-      <p>Tham gia vào kho game slot đa dạng tại ACB88, nơi bạn có thể <strong>chơi slot đổi thưởng</strong> với hiệu ứng âm thanh sống động và tỉ lệ thắng hấp dẫn. Các tựa game hot đến từ các nhà cung cấp hàng đầu như Pragmatic Play, PGSoft, và nhiều hơn nữa đang chờ bạn khám phá.</p>
-      <p>Slot game trên ACB88 được tối ưu hóa để mang lại trải nghiệm mượt mà, kèm theo đó là các chương trình khuyến mãi đặc biệt giúp người chơi gia tăng cơ hội chiến thắng. Hãy thử vận may của bạn ngay bây giờ với những tựa game nổi bật và các jackpot cực khủng.</p>
+      <h3>Chơi slot đổi thưởng với tỷ lệ thắng cao</h3> <!-- Играйте в слоты с высоким шансом выигрыша -->
+      <p>Tham gia vào kho game slot đa dạng tại ACB88...</p>
     </div>
   </section>
 
+  <!-- Раздел с бонусами -->
   <section id="bonuses">
-    <h2>Ưu đãi</h2>
+    <h2>Ưu đãi</h2> <!-- Ưu đãi = Бонусы -->
     <ul>
-      <li>🎁 Thưởng chào mừng</li>
-      <li>🎰 Vòng quay miễn phí</li>
-      <li>💵 Hoàn tiền</li>
-      <li>🏆 Giải đấu</li>
-      <li>👑 VIP & Lòng trung thành</li>
+      <li>🎁 Thưởng chào mừng</li>           <!-- Бонус за регистрацию -->
+      <li>🎰 Vòng quay miễn phí</li>          <!-- Бесплатные вращения -->
+      <li>💵 Hoàn tiền</li>                   <!-- Кэшбэк -->
+      <li>🏆 Giải đấu</li>                    <!-- Турниры -->
+      <li>👑 VIP & Lòng trung thành</li>      <!-- VIP и программа лояльности -->
     </ul>
+
     <div class="seo-text">
-      <h3>Khuyến mãi casino hấp dẫn mỗi ngày</h3>
-      <p>ACB88 luôn mang đến những <strong>khuyến mãi casino</strong> siêu hấp dẫn: thưởng nạp đầu, vòng quay miễn phí, hoàn tiền hàng tuần và chương trình VIP đẳng cấp. Đăng ký ngay để nhận phần thưởng độc quyền cho người chơi mới.</p>
-      <p>Chúng tôi thường xuyên tổ chức các sự kiện đặc biệt, giải đấu hấp dẫn với phần thưởng giá trị. Người chơi trung thành sẽ được tham gia vào chương trình tích điểm đổi quà, tăng cấp độ thành viên để nhận thêm ưu đãi và hỗ trợ cá nhân hóa.</p>
+      <h3>Khuyến mãi casino hấp dẫn mỗi ngày</h3> <!-- Ежедневные бонусы в казино -->
+      <p>ACB88 luôn mang đến những <strong>khuyến mãi casino</strong>...</p>
     </div>
   </section>
 
+  <!-- Раздел поддержки -->
   <section id="support">
-    <h2>Hỗ trợ 24/7</h2>
+    <h2>Hỗ trợ 24/7</h2> <!-- Круглосуточная поддержка -->
     <ul>
       <li>💬 Live Chat</li>
-      <li>📄 Câu hỏi thường gặp</li>
+      <li>📄 Câu hỏi thường gặp</li>         <!-- Часто задаваемые вопросы -->
       <li>📱 Telegram / WhatsApp</li>
-      <li>📧 Biểu mẫu Email</li>
+      <li>📧 Biểu mẫu Email</li>             <!-- Форма Email -->
     </ul>
+
     <div class="seo-text">
-      <h3>Dịch vụ hỗ trợ khách hàng 24/7</h3>
-      <p>Đội ngũ chăm sóc khách hàng ACB88 luôn sẵn sàng hỗ trợ bạn bất cứ lúc nào qua <strong>live chat</strong>, <strong>Telegram</strong>, và <strong>Email</strong>. Chúng tôi cam kết phản hồi nhanh chóng và hỗ trợ mọi vấn đề liên quan đến tài khoản, trò chơi hoặc thanh toán.</p>
-      <p>Với đội ngũ hỗ trợ nhiệt tình, chuyên nghiệp, người chơi tại ACB88 luôn cảm thấy yên tâm khi tham gia cá cược trực tuyến. Hệ thống FAQ giúp giải đáp nhanh các thắc mắc phổ biến, tiết kiệm thời gian và tăng trải nghiệm người dùng.</p>
+      <h3>Dịch vụ hỗ trợ khách hàng 24/7</h3> <!-- Служба поддержки клиентов 24/7 -->
+      <p>Đội ngũ chăm sóc khách hàng ACB88 luôn sẵn sàng hỗ trợ...</p>
     </div>
   </section>
 
+  <!-- Подвал -->
   <footer>
     <div class="footer-links">
-      <a href="#about">Về chúng tôi</a>
-      <a href="#terms">Điều khoản</a>
-      <a href="#responsible">Chơi có trách nhiệm</a>
-      <a href="#privacy">Chính sách bảo mật</a>
-      <a href="#affiliate">Chương trình đại lý</a>
-      <a href="#license">Giấy phép</a>
+      <a href="#about">Về chúng tôi</a>              <!-- О нас -->
+      <a href="#terms">Điều khoản</a>                <!-- Условия -->
+      <a href="#responsible">Chơi có trách nhiệm</a> <!-- Ответственная игра -->
+      <a href="#privacy">Chính sách bảo mật</a>      <!-- Политика конфиденциальности -->
+      <a href="#affiliate">Chương trình đại lý</a>   <!-- Партнёрская программа -->
+      <a href="#license">Giấy phép</a>               <!-- Лицензия -->
     </div>
     <div class="social-icons">
+      <!-- Социальные сети (иконки можно добавить здесь) -->
     </div>
   </footer>
+</body>
+</html>
+
 </body>
 </html>
